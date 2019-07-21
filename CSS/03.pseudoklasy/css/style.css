@@ -1,0 +1,31 @@
+* {
+ background-color: blueviolet;
+}
+
+#name:hover{
+    background-color: red;
+}
+
+#name:focus{
+border: 3px solid blue;
+}
+
+.customer:first-child{
+color: goldenrod;
+}
+
+.customer:last-child{
+    color: silver;
+}
+
+.customer:nth-child(3){
+    color: orangered;
+}
+
+.customer:nth-last-child(3){
+    color: aquamarine;
+}
+
+.customer:nth-child(3n -1){
+color: blanchedalmond;;
+}
