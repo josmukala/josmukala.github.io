@@ -1,15 +1,15 @@
 [title]{
     color: darkorange;
 }
-
+/* fraza */
 [title="About me"]{
     color: darkslateblue;
 }
-
+/* ile raz pojawia się całe słowo */
 [title~="Container"]{
     color: green;
 }
-
+/* ciąg znaków */
 [title*="ectio"]{
     color: black;
 }
