@@ -1,0 +1,31 @@
+[title]{
+    color: darkorange;
+}
+
+[title="About me"]{
+    color: darkslateblue;
+}
+
+[title~="Container"]{
+    color: green;
+}
+
+[title*="ectio"]{
+    color: black;
+}
+
+[title*="More"]{
+    color: rosybrown;
+}
+
+[title$="skills"]{
+    color: khaki;
+}
+
+[title]:last-child{
+    color: hotpink;
+}
+/* nie trzeba */
+nav > ul > li >a[title]{
+    color: navy;
+}
