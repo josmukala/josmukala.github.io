@@ -1,0 +1,43 @@
+
+*  {  background-color: #213b50;}
+
+form{
+    color: #ffffff;
+    margin: 10px;
+    width: 600px;
+    padding: 20px;
+
+}
+form input, form select{
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="tel"], form input[type="email"],select, textarea{
+    background-color: #2b4a64;
+    width: 300px;
+    color: #ffffff;
+    border: #4e708c;
+}
+
+
+form label{
+    display: block;
+    margin: 5px;
+}
+
+form input[type="checkbox"], input[type="radio"]{
+  float: left;
+
+}
+
+input:hover{
+    background-color: #4e708c;
+}
+
+textarea{
+    background-color: #2b4a64;
+    padding: 20px 60px;
+}
+textarea:hover {
+    border: 2px solid #ffffff;
+}
