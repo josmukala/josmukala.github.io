@@ -1,0 +1,14 @@
+* {
+background-color: brown;
+}
+
+#pierwszy::before{
+ content: "przed pierszym pragrafem";
+ color: yellow;
+}
+
+
+#drugi::after{
+    content: "raz dwa trzy";
+    color: blue;
+}
