@@ -1,0 +1,30 @@
+body{
+    background-color: lightskyblue;
+}
+form{
+    color: lightgreen
+    margin: 10px;
+    width: 600px;
+    padding: 20px;
+}
+
+form input, form select, form label{
+    margin-bottom: 10px;}
+
+form input[type="text"], form input[type="tel"], form input[type="email"], select, textarea{
+        width: 300px;}
+
+form input[type="checkbox"], {
+        float: left;
+}
+
+input:hover{
+        background-color: lightcyan;
+    }
+textarea{    
+    padding: 20px 60px;
+}
+textarea:hover{
+        background-color: lightcyan;
+    }
+    
