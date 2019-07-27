@@ -4,14 +4,14 @@
     padding: 10px;
     margin: 3px;
     background-color: pink;
-    flex-basis: 100%;
+    flex-basis: 50%;
 }
 .flex-item:nth-last-of-type(odd){
     background-color: lightyellow;
-    flex-basis: 20%;
 }
 .container{
     border: 2px dashed goldenrod;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
 }
