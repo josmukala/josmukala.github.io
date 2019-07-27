@@ -1,0 +1,11 @@
+#box1{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: red;
+}
+
+#box1:hover{
+        transition: width 200px;
+    }
+}
