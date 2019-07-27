@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+}
+#background-img{
+    background-color: burlywood;
+    background-image: url(../img/truskawka.jpg);
+    background-repeat:repeat-y;
+    background-position: top center;
+    background-size: 5% 5%; 
+    background-attachment: fixed;
+}
+/* background-size:cover */

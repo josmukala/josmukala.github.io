@@ -1,11 +1,39 @@
-#box1{
+body{
+    background-color: aqua;
+}
+.box{ 
     width: 150px;
     height: 150px;
-    margin: 20px;
-    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
-#box1:hover{
-        transition: width 200px;
-    }
+.box1{
+    background-color: red;
+    transition: width 2s;
 }
+
+.box1:hover{
+      transition: 300px;      
+}
+
+.box2{
+
+    background-color: blue;
+    transition: height 2s;
+}
+
+.box2:hover{
+    transition: 300px;
+}
+
+.box3{
+    background-color: green;
+    transition: height 2s, width 2s;
+}
+
+.box3:hover{
+    transition: 300px;
+}
+/* nie dziala:{ */
