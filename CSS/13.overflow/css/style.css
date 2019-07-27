@@ -1,0 +1,30 @@
+.box{
+    width: 400px;
+    height: 150px;
+    border: 1px solid green;
+    padding: 5px;
+    margin: 40px;
+    background-color: lightsalmon;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#visible{
+    overflow: visible;
+    color: cadetblue;
+}
+
+#hidden{
+    overflow: hidden;
+    color: crimson;
+}
+
+#scroll{
+    overflow: scroll;
+    color: forestgreen;
+}
+#auto{
+    overflow: auto;
+    color: cornflowerblue;
+}
+
