@@ -9,11 +9,11 @@
     border: 10px solid orange;
 }
 
-@media (max-width: 992px) and (max-width: 972px) {
+@media (max-width: 992px) and (max-width:972px){
     .box{
-        width: 50%;
+        widows: 50%;
         background-color: beige;
         color: black;
-       border: 5px solid yellow;
+        border: 5px solid yellow;
     }
 }

@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px){
+    #gallery{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    figure {
+        display: inline-block;
+        width: 100%;
+    }
+
+    figure img{
+         width: 100%;
+         display: block;
+}
+@media screen (max-width: 480px){
+
+}
+}
