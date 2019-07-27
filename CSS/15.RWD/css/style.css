@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    font-size: 16px;
+    width: 25%;
+    height: 300px;
+    float: left;
+    border: 10px solid orange;
+}
+
+@media (max-width: 992px) and (max-width: 972px) {
+    .box{
+        width: 50%;
+        background-color: beige;
+        color: black;
+       border: 5px solid yellow;
+    }
+}
