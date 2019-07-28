@@ -4,19 +4,16 @@
     padding: 10px;
     margin: 3px;
     background-color: pink;
-    flex-basis: 30%;
+
+
 }
 .flex-item:nth-last-of-type(odd){
     background-color: lightyellow;
-    overflow: hidden;
 }
 .container{
     border: 2px dashed goldenrod;
     display: flex;
-    height: 600px;
-    flex-wrap: wrap;
-    /* align-items: flex-end;
-    align-items: flex-start; */
-    align-items: baseline;
+    
 }
-
+.ordered-item{
+    flex-grow: 1;}
