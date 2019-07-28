@@ -104,8 +104,6 @@ header p{
     margin: 0;
     padding: 10px 0;
     text-align: center;
-   
-
 }
 .nav-menu .nav-menu-item{
     display: inline-block;
@@ -137,4 +135,7 @@ header p{
     object-fit: cover;
     object-position: center;
 
+}
+.kontakt{
+    display: inline;
 }
