@@ -4,33 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>form</title>
 </head>
 <body>
-    <form action="" method="GET">
+    <form action="sender.php" method="GET">
+      <div class="form-group">
         <label for="lastname">last name</label>
-       <input type="text" name="lastname"><br>
-       <label for="mail">e-mail</label>
-       <input type="email" name="_replyto"><br>
-       <label for="phone">phone</label>
-       <input type="tel" name="phone"> <br>
-       <label for="city">city</label>
-        <select name="city" id="city">
-            <option value="Gdansk">Gdansk</option>
-            <option value="Krako">Krakow</option>
-            <option value="Warszawa">Wawa</option>
-       </select>
-        <p>gender</p>
-            <input type="radio" name="gender" value="male"><label for="male">male</label>
-            <input type="radio" name="gender" value="female"><label for="female">female</label>
+         <input type="text" name="lastname" id="lastname">
+      </div>
 
+
+      <div class="form-group">
+
+        <label for="mail">e-mail</label>
+        <input type="email" name="_replyto" id="mail">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+
+      <div class="form-group">
+        <label for="city">city</label>
+         <select name="city" id="city">
+             <option value="Gdansk">Gdansk</option>
+             <option value="Krakow">Krakow</option>
+             <option value="Warszawa">Warszawa</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>gender</p>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">male</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">female</label>
+      </div>
+
+      <div class="form-group">
+        <textarea name="message"  cols="30" rows="10" placeholder="Your message"></textarea>
+      </div>
+      <div class="form-group">
         <p>I agree with...</p>
-        <input type="checkbox"><label for="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</label> <br>
-        <p>your message</p>
-         <textarea name="message" id="" cols="30" rows="10"></textarea><br>
-        <label for="submit"></label>
-       <input type="submit"> 
+        <input type="checkbox" id="agreement" value="policy"><label for="agreement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</label> <br>
+      </div>
+
+        <button type="submit" class="btn btn-submit" name="submit">Wyslij</button>
     </form>
 </body>
 </html>
