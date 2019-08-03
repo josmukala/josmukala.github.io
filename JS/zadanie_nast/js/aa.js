@@ -55,3 +55,4 @@ function silniaPrzezPetle(n){
 }
 
 console.log("pentla for", silniaPrzezPetle(4));
+
