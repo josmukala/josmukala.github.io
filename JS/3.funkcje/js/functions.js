@@ -5,6 +5,7 @@ function dodawanie (x,y) {
 }
 console.log(dodawanie(5,6))
 
+// funkcja  strzalkowa
 let odejmowanie = (a,b) => {
     let roznica;
     roznica = a - b

@@ -1,0 +1,39 @@
+* {
+    color: black;
+}
+
+body { 
+
+    background-color: grey;
+}
+
+p {   
+    background-color: pink;
+}
+
+#Kasia  {
+
+    background-color: aqua;
+}
+.lorak {
+    background-color: green;
+}
+
+ul a{
+
+    color: navajowhite;
+}
+
+a > span{
+background-color: blueviolet;
+}
+
+li#pierwszy ~ li
+{
+    background-color: turquoise;
+}
+
+li#pierwszy + li{
+
+background-color: coral;
+}
