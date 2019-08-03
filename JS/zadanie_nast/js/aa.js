@@ -42,14 +42,14 @@ for(let i=0; i < tab.length; i++) {
 
 function silniaPrzezPetle(n){
     let wynik = 1;
-    if(n,0){
+    if(n<0){
         return 'Silnia od ujemniej nie istnieje'
     } else if (n < 2){
         return wynik
     }
     // obsluga silni 
-    for (n; n > 0;-n){
-        wybik = wynik *n;
+    for (n; n > 0;--n){
+        wynik = wynik *n;
     }
     return wynik
 }
